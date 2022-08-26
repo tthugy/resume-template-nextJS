@@ -1,0 +1,107 @@
+.tIcon {
+    display: block;
+    margin: 1.4rem 0;
+    /* font-size: 2.6rem; */
+    width: 8.8rem;
+    height: 8.2rem;
+    position: relative;
+}
+
+@media (max-width: 1199px){ .tIcon {
+    height: 7.5rem;
+}} 
+
+.memo {
+    position: absolute;
+    top: 0;
+    left: -1.15rem;
+    display: block;
+    width: 8.6rem;
+    height: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 1199px){ .memo {
+    width: 7.6rem;
+}} 
+
+.title {
+    display: inline-block;
+    margin: .3rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.title p {
+    z-index: 2;
+    margin: 0;
+    position: relative;
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: .03rem;
+    z-index: 1;
+    background: linear-gradient(7deg, #78e7ff -18%, #3560b8 113%);
+    color: #3560b8;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1199px){ .title p {
+    font-size: 2.05rem;
+    margin-bottom: 0;
+    background: linear-gradient(136deg, #78e7ff -18%, #3560b8 113%);
+}} 
+
+@media (max-width: 1199px){ .title p span {
+    display: block;
+}} 
+
+.linkCollect {
+    display: none;
+}
+
+@media (max-width: 1199px){ .linkCollect {
+    display: block!important;
+    position: absolute;
+    font-size: 1.25rem!important;
+    background: none;
+    top: 1.35rem;
+    right: .9rem;
+    margin: 0;
+    z-index: 6;
+    transition: all .5s ease;
+    opacity: 1;
+}}
+
+@media (max-width: 1199px){ .linkCollect a {
+    background: none;
+    display: inline-grid;
+    width: auto;
+    height: auto;
+}}
+
+@media (max-width: 1199px){ .linkCollect a i {
+    color: #202020;
+    position: relative;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:first-child {
+    background: none;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:last-child {
+    background: none;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:last-child i {
+    font-size: 1.43rem;
+}}
+
+.linkCollect a ~ a{
+    margin-left: .6rem;
+}
+
+.linkCollect a:first-child {
+    margin-left: 0!important;
+}
