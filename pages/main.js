@@ -61,7 +61,7 @@ export default function Header() {
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
-              안녕하세요. 프론트엔드 개발자 최원석입니다.
+              Hello, I'm a DevOps Engineer Lorem imsum.
             </p>
             <div className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
@@ -77,18 +77,18 @@ export default function Header() {
                   <i className={`bi bi-at`}></i>
                 </a>
             </div>
-            <div className={styles.codeTxt}>저는 2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 프론트엔드 개발자의 핵심 역량은 API 연동을 문제없이 하는 것뿐만 아니라 사용자가 더욱 오랫동안 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 저의 목표입니다.</div>
+            <div className={styles.codeTxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ultrices metus et mattis. Nam mattis elit vel urna iaculis ultrices. Aliquam vulputate nunc eu justo tristique gravida. Sed sollicitudin, mi nec luctus pulvinar, dolor arcu finibus felis, ut tristique augue enim id arcu. Phasellus a rhoncus risus, ac lacinia nibh. Aenean tincidunt non sapien in blandit. Nullam nec velit quis nunc molestie interdum.</div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="800" className={styles.company}>
           <ul>
             <li>
               <div>
-                정상
-                <span>프론트엔드 개발자</span> 
-                <span className={styles.comPeriod}>21.04 ~ current</span> 
+                Company
+                <span>DevOps Engineer</span> 
+                <span className={styles.comPeriod}>99.03 ~ current</span> 
               </div>
-              <span className={styles.comCont}>핀테크 스타트업에서 프론트엔드 개발을 담당하고 있습니다.</span>
+              <span className={styles.comCont}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
             </li>
           </ul>
         </div>
@@ -96,12 +96,12 @@ export default function Header() {
         <div className={styles.education}>
           <p data-aos="fade-left" data-aos-duration="600" className={styles.titles}>Educations<span>a</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.eduCont}>
-            <span>백석대학교, 16.03 ~ 22.02</span>
+            <span>Example Univ, 16.03 ~ 22.02</span>
             <ul>
-              <li>주전공: 정보통신학</li>
-              <li>복수전공:&nbsp;
-                <a target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
-                  컬처테크융합
+              <li>major: Computer Science</li>
+              <li>double majoring:&nbsp;
+                <a target='_blank' href='' rel='noopener noreferrer'>
+                  Mathematics
                   <i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i>
                 </a>
               </li>
@@ -117,9 +117,9 @@ export default function Header() {
             </span>
           </div>
           <span className={styles.commitDesc}>
-            저는 개인 Github 계정을 만들어 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.
             <br/><br/>
-            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
+            quas molestias <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>my Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga
           </span>
         </div>
 
