@@ -29,7 +29,7 @@ export default function Header() {
             <p>
               Hello, I'm a DevOps Engineer Lorem imsum.
             </p>
-            <div className={`${styles.linkCollect}`}>
+            <div className={styles.linkCollect}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                 </a>
