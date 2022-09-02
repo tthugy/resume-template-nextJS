@@ -12,7 +12,7 @@
 
 ## Live Page
 
-https://tthugy.github.io/resume/
+https://tthugy.github.io/resume-template-nextJS/
 
 위의 주소로 접속해서 이력서를 바로 확인해 볼 수 있습니다.
 
