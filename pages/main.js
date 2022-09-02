@@ -53,7 +53,7 @@ export default function Header() {
                 <span>DevOps Engineer</span> 
                 <span className={styles.comPeriod}>99.03 ~ current</span> 
               </div>
-              <span className={styles.comCont}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+              <span className={styles.comCont}>Help maintain server, Internet/e-mail, and software to support 150-user local area network comprised of human resources, sales/marketing, customer services, purchasing, accounting, and receiving/shipping applications. Train staff on sharing data among disciplines to improve performance in all areas. </span>
             </li>
           </ul>
         </div>
