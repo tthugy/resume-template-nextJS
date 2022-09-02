@@ -1,5 +1,5 @@
 ## Resume template for nextJS
-> Next.js를 위한 이력서 템플릿입니다. 
+> Resume template for developers using Next.js.
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 https://tthugy.github.io/resume-template-nextJS/
 
-위의 주소로 접속해서 이력서를 바로 확인해 볼 수 있습니다.
+You can check your resume right away by accessing the address above.
 
 <br/>
 
