@@ -20,7 +20,7 @@ export default function Toast() {
 
   return (
     <>
-        <div class="">
+        <div className="">
         </div>
     </>
   )
