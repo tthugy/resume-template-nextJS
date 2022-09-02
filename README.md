@@ -5,8 +5,8 @@
 
 ## Stack
 
-- client: next.js
-- deploy: github-actions
+- Client: Next.js
+- Deploy: Github-actions
 
 <br/>
 
@@ -15,6 +15,22 @@
 https://tthugy.github.io/resume/
 
 위의 주소로 접속해서 이력서를 바로 확인해 볼 수 있습니다.
+
+<br/>
+
+## How to Use?
+
+Clone or download the project and run it in terminal like this:
+
+```
+npm run dev
+```
+
+If you see an error message like this `sh: next: command not found`:
+
+```
+npm update
+```
 
 <br/>
 
