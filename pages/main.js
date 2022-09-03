@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useState, useEffect, useRef } from 'react';
-import { useRouter } from "next/router";
 import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
@@ -9,8 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Header() {
-
-  const router = useRouter();
 
   useEffect(() => {
     AOS.init();

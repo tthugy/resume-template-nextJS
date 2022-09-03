@@ -9,8 +9,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Pretendard-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Pretendard-Regular, -apple-system, Droid Sans, Helvetica Neue, sans-serif;
   background: #fafcfd;
 }
 
@@ -27,29 +26,10 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-}
-
-input:focus {
-  outline:none;
 }
 
 .component {
