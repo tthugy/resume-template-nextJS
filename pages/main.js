@@ -101,7 +101,7 @@ export default function Header() {
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
-                  <li>CSS-module</li>
+                  <li>Styled Components</li>
                   <li>Redux</li>
                   <li>Github actions</li>
                 </ul>
