@@ -26,7 +26,7 @@
 
 ## Description
 
--
+> Resume Template for Next.js Users
 
 <br/>
 
