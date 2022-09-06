@@ -82,9 +82,9 @@ export default function Header() {
             </span>
           </div>
           <span className={styles.commitDesc}>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.
+          After creating a personal Github account, I am dedicated to my daily leisure activities and activities.
             <br/><br/>
-            quas molestias <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>my Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga
+            The image above shows a graph of <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>a Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> , an example.
           </span>
         </div>
 
