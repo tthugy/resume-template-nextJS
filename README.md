@@ -26,7 +26,8 @@
 
 ## Description
 
-> Resume Template for Next.js Users
+> This page is a resume template for people using Next.js. On this page, you can fill in company information, training material, open source, personal project, Commercial project, etc.
+
 
 <br/>
 
