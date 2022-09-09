@@ -42,7 +42,7 @@
 
 https://tthugy.github.io/resume-template-nextJS/
 
-You can check this project right away by accessing the address above.
+You can check this project by accessing the address above.
 
 <br/>
 
