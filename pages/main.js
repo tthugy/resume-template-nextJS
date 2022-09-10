@@ -92,7 +92,7 @@ export default function Header() {
           <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Open Source Projects<span>c</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>Open Source Project1</p>
+            <a target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'><p>Open Source Project1<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></p></a>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;99.07 ~ current
               </span>
