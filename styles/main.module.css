@@ -552,3 +552,15 @@
 .docs {
     background: #17c64e!important;
 }
+
+.pLink {
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    padding-top: 0.35rem;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
+@media (max-width: 1023px){ .pLink {
+    padding-top: 0.15rem;
+}} 
