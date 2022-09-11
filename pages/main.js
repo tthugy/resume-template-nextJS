@@ -42,7 +42,7 @@ export default function Header() {
                   <i className={`bi bi-at`}></i>
                 </a>
             </div>
-            <div className={styles.codeTxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ultrices metus et mattis. Nam mattis elit vel urna iaculis ultrices. Aliquam vulputate nunc eu justo tristique gravida. Sed sollicitudin, mi nec luctus pulvinar, dolor arcu finibus felis, ut tristique augue enim id arcu. Phasellus a rhoncus risus, ac lacinia nibh. Aenean tincidunt non sapien in blandit. Nullam nec velit quis nunc molestie interdum.</div>
+            <div className={styles.codeTxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ultrices metus et mattis. Nam mattis elit vel urna iaculis ultrices. Aliquam vulputate nunc eu justo tristique gravida. Sed sollicitudin, mi nec luctus pulvinar, dolor arcu finibus felis, ut tristique augue enim id arcu. Phasellus a rhoncus risus, ac lacinia nibh. Aenean tincidunt non sapien in blandit.</div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="800" className={styles.company}>
