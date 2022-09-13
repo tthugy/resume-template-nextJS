@@ -53,7 +53,7 @@ export default function Header() {
                 <span>DevOps Engineer</span> 
                 <span className={styles.comPeriod}>99.03 ~ current</span> 
               </div>
-              <span className={styles.comCont}>Continuous delivery. For this role, you'll need a deep understanding of continuous delivery (CD) theory, concepts and real-world application of them. And Configuration Management lots of projects at the below.</span>
+              <span className={styles.comCont}>Continuous delivery. For this role, you'll need a deep understanding of continuous delivery CD theory, concepts and real-world application of them. And Configuration Management lots of projects at the below.</span>
             </li>
           </ul>
         </div>
