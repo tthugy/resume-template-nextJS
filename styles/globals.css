@@ -14,7 +14,7 @@ body {
 }
 
 @media (max-width: 1199px){ body {
-  font-size: 14px;
+  font-size: 15px;
 }}
 
 body::-webkit-scrollbar {
@@ -39,6 +39,7 @@ ul {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 26px;
+  overflow-x: hidden;
 }
 
 header {
