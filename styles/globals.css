@@ -14,7 +14,7 @@ body {
 }
 
 @media (max-width: 1199px){ body {
-  font-size: 15px;
+  font-size: 14px;
 }}
 
 body::-webkit-scrollbar {
