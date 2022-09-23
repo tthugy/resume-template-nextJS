@@ -149,6 +149,34 @@ export default function Header() {
               <span className={`${styles.pImage}`}>Put your project Image</span>
             </div>
           </div>
+
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
+            <div className={styles.pLeft}>
+              <p>Private Project2</p>
+              <span className={styles.pTimeLine}>
+                <i className="bi bi-calendar-event"></i> &nbsp;99.07 ~ current
+              </span>
+              <ul className={styles.projectDesc}>
+                <li>📍 Description of this Project</li>
+                <li className={styles.bold}>💡 Tech Stacks</li>
+                <ul className={styles.pDetailDesc}>
+                  <li>Next.js</li>
+                  <li>CSS-module</li>
+                  <li>Github actions</li>
+                </ul>
+                <li className={styles.bold}>💬 Description</li>
+                <span>Open source is at the core of the products we build.</span>
+                <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
+                  <li>Project Initial React Application Architecture Design</li>
+                  <li>Managing issues with Github actions, continuous integration and distribution through the Jenkins pipeline</li>
+                </ul>
+              </ul>
+            </div>
+            <div className={styles.pRight}>
+              <span className={`${styles.pImage}`}>Put your project Image</span>
+              <span className={`${styles.pImage}`}>Put your project Image</span>
+            </div>
+          </div>
         </div>
 
         <div className={styles.project}>
