@@ -22,24 +22,29 @@ export default function Header() {
     });
   }
 
+  const [hover, setHover] = useState(1);
+
   return (
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
               Hello, I am a DevOps Engineer Lorem imsum.
             </p>
-            <div className={styles.linkCollect}>
-                <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+            <div className={`${styles.linkCollect} ${styles.flex}`}>
+                <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
+                  <span>Link to Github</span>
                 </a>
-                <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
+                  <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a href='mailto:lorem@ipsum.com'>
+                <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
+                  <span>cwstwin1@gmail.com</span>
                 </a>
             </div>
             <div className={styles.codeTxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
