@@ -22,8 +22,6 @@ export default function Header() {
     });
   }
 
-  const [hover, setHover] = useState(1);
-
   return (
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
@@ -31,18 +29,18 @@ export default function Header() {
               Hello, I am a DevOps Engineer Lorem imsum.
             </p>
             <div className={`${styles.linkCollect} ${styles.flex}`}>
-                <a title="Link to Github" onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                <a title="Link to Github" target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                   <span>Link to Github</span>
                 </a>
-                <a title="Link to Linkedin" onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a title="Link to Linkedin" target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                   <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a title="Send Email" onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
+                <a title="Send Email" href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
                   <span>cwstwin1@gmail.com</span>
                 </a>
