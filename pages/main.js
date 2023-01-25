@@ -31,18 +31,18 @@ export default function Header() {
               Hello, I am a DevOps Engineer Lorem imsum.
             </p>
             <div className={`${styles.linkCollect} ${styles.flex}`}>
-                <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                <a title="Link to Github" onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                   <span>Link to Github</span>
                 </a>
-                <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a title="Link to Linkedin" onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                   <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
+                <a title="Send Email" onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
                   <span>cwstwin1@gmail.com</span>
                 </a>
@@ -89,7 +89,7 @@ export default function Header() {
           <span className={styles.commitDesc}>
           After creating a personal Github account, I am dedicated to my daily leisure activities and activities.
             <br/><br/>
-            The image above shows a graph of <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>a Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> , an example.
+            The image above shows a graph of <a title="Link to github account" target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>a Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> , an example.
           </span>
         </div>
 
@@ -97,7 +97,7 @@ export default function Header() {
           <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Open Source Projects<span>c</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
-            <a target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'><p>Open Source Project1<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></p></a>
+            <a title="Link to github repository" target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'><p>Open Source Project1<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></p></a>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;99.07 ~ current
               </span>
@@ -269,7 +269,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <p onClick={scrollTop} className={styles.end}>
+        <p title="Click to go up" onClick={scrollTop} className={styles.end}>
           Thanks for reading my portfolio.
         </p>
 
